@@ -1,0 +1,55 @@
+name: 💡 Suggérer une amélioration
+description: Une idée de fonctionnalité ou d'amélioration pour FactSpeed.
+title: "[Idée] "
+labels: ["idée", "à trier"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Les meilleures idées de FactSpeed viennent de ses utilisateurs.
+        Décrivez votre besoin métier — c'est le « pourquoi » qui compte le plus.
+        Urgent ? → WhatsApp +213 770 600 957 (7 j/7).
+  - type: dropdown
+    id: module
+    attributes:
+      label: Domaine
+      options:
+        - "Facturation & documents"
+        - "Clients & relances"
+        - "Caisse POS"
+        - "Achats & stock"
+        - "RH & paie"
+        - "Rapports & comptabilité"
+        - "Impression / PDF"
+        - "Sauvegardes"
+        - "Interface / Apparence"
+        - "Autre"
+    validations:
+      required: true
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Quel besoin métier cela résout-il ?
+      description: Décrivez la situation actuelle et ce qui vous manque.
+      placeholder: "Chaque fin de mois, je dois…"
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution souhaitée
+      description: Comment vous imaginez la fonctionnalité (même en quelques mots).
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Solutions alternatives (facultatif)
+      description: Comment vous contournez le problème aujourd'hui.
+  - type: checkboxes
+    id: regles
+    attributes:
+      label: Règles du dépôt
+      options:
+        - label: Je comprends que cette suggestion est publique et que les idées ne sont pas garanties d'implémentation.
+          required: true
