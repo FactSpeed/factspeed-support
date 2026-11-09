@@ -1,0 +1,82 @@
+name: 🐛 Signaler un problème
+description: Un comportement incorrect, une erreur, un affichage cassé — non urgent.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler ce problème.
+        ⚠️ **Anonymisez vos exemples** — ne collez jamais de données clients réelles.
+        Urgent (blocage, perte de données) ? → WhatsApp +213 770 600 957 (7 j/7).
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version de FactSpeed
+      description: Visible en haut à droite du logiciel.
+      options:
+        - "10.14.32"
+        - "10.14.31"
+        - "10.14.30"
+        - "10.14.28 ou plus ancienne"
+        - "Autre / je ne sais pas"
+    validations:
+      required: true
+  - type: dropdown
+    id: module
+    attributes:
+      label: Module concerné
+      options:
+        - "Facturation & documents"
+        - "Clients & relances"
+        - "Caisse POS"
+        - "Achats & stock"
+        - "RH & paie"
+        - "Rapports & comptabilité"
+        - "Impression / PDF"
+        - "Sauvegardes"
+        - "Licence & activation"
+        - "Interface / Apparence"
+        - "Autre"
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Système
+      options:
+        - "Windows 11"
+        - "Windows 10"
+        - "macOS (Apple Silicon)"
+        - "macOS (Intel)"
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Étapes pour reproduire
+      description: Ce que vous faisiez, étape par étape (avec des exemples anonymisés).
+      placeholder: |
+        1. Ouvrir « … »
+        2. Cliquer sur « … »
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: attendu
+    attributes:
+      label: Résultat attendu
+    validations:
+      required: true
+  - type: textarea
+    id: obtenu
+    attributes:
+      label: Résultat obtenu
+      description: Message d'erreur exact s'il y en a un (copiez-collez le texte).
+    validations:
+      required: true
+  - type: textarea
+    id: contexte
+    attributes:
+      label: Captures / contexte (facultatif)
+      description: Capture d'écran ANONYMISÉE, fréquence du problème, depuis quand.
