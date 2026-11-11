@@ -16,6 +16,18 @@ Développé et maintenu par **Derouiche Oussama — ∞ Infinity Coder** (Oran, 
 | 📥 Télécharger / réinstaller | [factspeed.com/telecharger](https://factspeed.com/telecharger) |
 | 📖 Aide d'utilisation | Guide intégré au logiciel + AIDE-ET-SUPPORT.html fourni avec l'installateur |
 
+
+## 📖 Guides officiels & ressources
+
+Toute la documentation fiscale et l'aide en ligne sont sur **factspeed.com** :
+
+| Ressource | Lien |
+|---|---|
+| 🧮 Calculateur de TVA gratuit (HT ⇄ TTC, timbre) | [factspeed.com/outils/calculateur-tva](https://factspeed.com/outils/calculateur-tva) |
+| 📚 Guides fiscaux (TVA 19/9/0 %, timbre, facture conforme, G50) | [factspeed.com/guides](https://factspeed.com/guides) |
+| ❓ Questions fréquentes | [factspeed.com/faq](https://factspeed.com/faq) |
+| 🏪 Votre secteur (supérette, restaurant, quincaillerie, pharmacie) | [factspeed.com/secteurs](https://factspeed.com/secteurs) |
+| 💰 Tarifs & formules | [factspeed.com/tarifs](https://factspeed.com/tarifs) |
 ## 📌 Règles simples
 
 1. **Une seule question par issue** — plus clair pour tout le monde.
